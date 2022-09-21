@@ -1,5 +1,8 @@
 <template>
   <div>
+    <AuthSignIn />
+  </div>
+  <!-- <div>
     <AuthSignUp v-if="isSignUp" />
     <AuthSignIn v-else />
     <button @click="isSignUp = !isSignUp">
@@ -9,7 +12,7 @@
           : "Don't have an account yet? Sign Up"
       }}
     </button>
-  </div>
+  </div> -->
 </template>
 
 <script>

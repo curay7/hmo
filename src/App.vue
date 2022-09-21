@@ -1,6 +1,6 @@
 <template>
-  <div class="container" style="padding: 50px 0 100px 0">
-    <Profile v-if="user.user" />
+  <div>
+    <HomeLayout v-if="user.user" />
     <Auth v-else />
   </div>
 </template>
@@ -8,12 +8,12 @@
 <script>
 import { user } from "./user";
 import { supabase } from "./supabase";
-import Profile from "./views/Home/Profile.vue";
+import HomeLayout from "./views/Home/HomeLayout.vue";
 import Auth from "./views/Auth/Auth.vue";
 
 export default {
   components: {
-    Profile,
+    HomeLayout,
     Auth,
   },
 

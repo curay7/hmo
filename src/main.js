@@ -1,14 +1,22 @@
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import "bootstrap/dist/css/bootstrap.css";
 
-import App from './App.vue'
-import router from './router'
+//Icons
 
-import './assets/main.css'
+import "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/free-solid-svg-icons";
+//import "bootstrap-icons/font/bootstrap-icons.css";
 
-const app = createApp(App)
+import { createApp } from "vue";
+import { createPinia } from "pinia";
 
-app.use(createPinia())
-app.use(router)
+import App from "./App.vue";
+import router from "./router";
 
-app.mount('#app')
+const app = createApp(App);
+
+app.use(createPinia());
+app.use(router);
+
+app.mount("#app");
+
+import "bootstrap/dist/js/bootstrap.js";
