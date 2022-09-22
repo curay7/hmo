@@ -3,11 +3,15 @@ import HomeMainPage from "../views/Home/HomeMainPage.vue";
 import AuthSignIn from "../views/Auth/AuthSignIn.vue";
 
 import HomeDashboard from "../views/Home/page/HomeDashboard.vue";
-import MemberProfile from "../views/Home/page/HomeMemberProfile.vue";
-import HomeMemberSearch from "../views/Home/page/HomeMemberSearch.vue";
-import HomeMemberViewProfile from "../views/Home/page/HomeMemberViewProfile.vue";
+
+import MemberProfile from "../views/Home/page/member/MemberProfile.vue";
+import MemberSearch from "../views/Home/page/member/MemberSearch.vue";
+import MemberViewProfile from "../views/Home/page/member/MemberViewProfile.vue";
+
 import HomeReports from "../views/Home/page/HomeReports.vue";
-import HomeBilling from "../views/Home/page/HomeBilling.vue";
+import Billing from "../views/Home/page/billing/Billing.vue";
+import BillingSearch from "../views/Home/page/billing/BillingSearch.vue";
+
 import HomeNoa from "../views/Home/page/HomeNoa.vue";
 import HomeLoa from "../views/Home/page/HomeLoa.vue";
 import page404 from "../views/page404.vue";
@@ -37,6 +41,7 @@ const router = createRouter({
           path: "dashboard",
           component: HomeDashboard,
         },
+        //Member
         {
           name: "Member Profile",
           path: "members",
@@ -45,22 +50,28 @@ const router = createRouter({
         {
           name: "Member Search",
           path: "member-search",
-          component: HomeMemberSearch,
+          component: MemberSearch,
         },
         {
           name: "Member View",
           path: "member-view",
-          component: HomeMemberViewProfile,
+          component: MemberViewProfile,
+        },
+        //Billing
+        {
+          name: "Billing",
+          path: "billing",
+          component: Billing,
+        },
+        {
+          name: "Billing Search",
+          path: "billing-search",
+          component: BillingSearch,
         },
         {
           name: "Reports",
           path: "reports",
           component: HomeReports,
-        },
-        {
-          name: "Billing",
-          path: "billing",
-          component: HomeBilling,
         },
         {
           name: "LOA",

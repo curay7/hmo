@@ -21,9 +21,7 @@
             <div class="team-item">
               <div class="mb-30 position-relative d-flex align-items-center">
                 <span class="socials d-inline-block">
-                  <a href="#" class="zmdi zmdi-facebook"></a>
-                  <a href="#" class="zmdi zmdi-twitter"></a>
-                  <a href="#" class="zmdi zmdi-google"></a>
+                  <a href="#" class="zmdi zmdi-center-focus-strong"></a>
                   <a href="#" class="zmdi zmdi-instagram"></a>
                 </span>
                 <span class="img-holder d-inline-block">
@@ -40,12 +38,12 @@
           </router-link>
         </div>
         <div class="col-md-6 col-lg-4 mb-30">
-          <router-link to="/memberssearch">
+          <router-link to="/billing-search">
             <div class="team-item">
               <div class="mb-30 position-relative d-flex align-items-center">
                 <span class="socials d-inline-block">
-                  <a href="#" class="zmdi zmdi-facebook"></a>
-                  <a href="#" class="zmdi zmdi-twitter"></a>
+                  <a href="#" class="zmdi zmdi-center-focus-strong"></a>
+                  <a href="#" class="zmdi zmdi-instagram"></a>
                 </span>
                 <span class="img-holder d-inline-block">
                   <img

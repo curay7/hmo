@@ -6,12 +6,7 @@
           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="login-screen">
               <div class="login-box">
-                <a href="#" class="login-logo">
-                  <img
-                    src="//ssl.gstatic.com/accounts/ui/logo_2x.png"
-                    alt="Bootdey bootstrap snippets bootdey"
-                  />
-                </a>
+                <a href="#" class="login-logo"> <h1>HMO Member</h1> </a>
                 <div class="row gutters">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="form-group">
@@ -31,21 +26,12 @@
                       />
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="form-group">
                       <input
                         type="email"
                         class="form-control"
-                        placeholder="Email ID"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div class="form-group">
-                      <input
-                        type="password"
-                        class="form-control"
-                        placeholder="Password"
+                        placeholder="Search ID"
                       />
                     </div>
                   </div>
@@ -53,28 +39,25 @@
                 <div class="actions clearfix">
                   <router-link to="/member-view"
                     ><button type="submit" class="btn btn-primary btn-block">
-                      signup
+                      Search
                     </button>
                   </router-link>
                 </div>
                 <div class="or">
-                  <span>or signup using</span>
+                  <span>Search Using</span>
                 </div>
                 <div class="row gutters">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                     <button type="submit" class="btn btn-tw btn-block">
-                      Twitter
+                      QR Code
                     </button>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                     <button type="submit" class="btn btn-fb btn-block">
-                      Facebook
+                      Bar Code
                     </button>
                   </div>
                 </div>
-                <a href="#" class="additional-link"
-                  >Have an Account? <span>Login Now</span></a
-                >
               </div>
             </div>
           </div>

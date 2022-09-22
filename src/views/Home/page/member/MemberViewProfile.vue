@@ -92,10 +92,18 @@
         >
       </li>
     </ul>
+    <div class="container">
+      <div v-if="activeBtn == 'btn1'">
+        <ViewProfileVue />
+      </div>
+      <div v-else>MblMonitoringVue</div>
+    </div>
   </div>
 </template>
 
 <script>
+import ViewProfileVue from "./subcomponents/ViewProfile.vue";
+import MblMonitoringVue from "./subcomponents/MblMonitoring.vue";
 import { onMounted, ref } from "vue";
 export default {
   setup() {
@@ -104,6 +112,10 @@ export default {
     return {
       activeBtn,
     };
+  },
+  components: {
+    ViewProfileVue,
+    MblMonitoringVue,
   },
 };
 </script>
