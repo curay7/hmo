@@ -5,15 +5,15 @@
         <h1>Reports</h1>
         <div class="col-6 col-lg-3">
           <div class="border-primary border rounded text-center py-3 mb-3">
-            <h5 class="card-title text-primary mb-1">$4000</h5>
+            <h5 class="card-title text-primary mb-1">₱4000</h5>
             <p class="text-primary mb-0">Sales</p>
           </div>
           <div class="border-success border rounded text-center py-3 mb-3">
-            <h5 class="card-title text-success mb-1">$2000</h5>
+            <h5 class="card-title text-success mb-1">₱2000</h5>
             <p class="text-success mb-0">Revenue</p>
           </div>
           <div class="border-warning border rounded text-center py-3">
-            <h5 class="card-title text-warning mb-1">$200</h5>
+            <h5 class="card-title text-warning mb-1">₱200</h5>
             <p class="text-warning mb-0">Refund</p>
           </div>
         </div>

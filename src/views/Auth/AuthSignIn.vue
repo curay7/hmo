@@ -4,10 +4,6 @@
       <div class="row vh-100">
         <div class="col align-self-center p-5 w-100">
           <h3 class="fw-bolder">WELCOME BACK !</h3>
-          <p class="fw-lighter fs-6">
-            Don't have an account,
-            <span id="signUp" role="button" class="text-primary">Sign Up</span>
-          </p>
           <!-- form login section -->
           <form action="" class="mt-5" @submit.prevent="handleSignin">
             <div class="mb-3">
@@ -41,36 +37,17 @@
               </button>
             </div>
           </form>
-          <p class="mt-5 text-center">Or Sign in with social platforms</p>
-          <div class="row text-center">
-            <div class="col mt-3">
-              <a href="" class="btn btn-outline-dark border-2 rounded-circle"
-                ><i class="bi bi-facebook fs-5"></i
-              ></a>
-            </div>
-            <div class="col mt-3">
-              <a href="" class="btn btn-outline-dark border-2 rounded-circle"
-                ><i class="bi bi-linkedin fs-5"></i
-              ></a>
-            </div>
-            <div class="col mt-3">
-              <a href="" class="btn btn-outline-dark border-2 rounded-circle"
-                ><i class="bi bi-twitter fs-5"></i
-              ></a>
-            </div>
-            <div class="col my-3">
-              <a href="" class="btn btn-outline-dark border-2 rounded-circle"
-                ><i class="bi bi-google fs-5"></i
-              ></a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
     <div class="d-none d-lg-block col-lg-6 col-xl-6 p-5">
       <div class="row vh-100 p-5">
         <div class="col align-self-center p-5 text-center">
-          <img src="@/assets/images/login.png" class="bounce" alt="" />
+          <img
+            src="https://bootdey.com/img/Content/bg1.jpg"
+            class="bounce"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -80,19 +57,28 @@
 <script>
 import { ref } from "vue";
 import { supabase } from "../../supabase";
+import { userSessionStore } from "../../stores/userSession";
+import { useRouter, useRoute } from "vue-router";
+
 export default {
   setup() {
     const email = ref("");
     const password = ref("");
+    const route = useRouter();
 
     const handleSignin = async () => {
       try {
         // Use the Supabase provided method to handle the signin
-        const { error } = await supabase.auth.signIn({
+        const { error, data } = await supabase.auth.signIn({
           email: email.value,
           password: password.value,
         });
         if (error) throw error;
+        if (data) {
+          userSessionStore().session = true;
+
+          route.push("/");
+        }
       } catch (error) {
         alert(error.error_description || error.message);
       }
@@ -102,6 +88,7 @@ export default {
       email,
       password,
       handleSignin,
+      route,
     };
   },
 };

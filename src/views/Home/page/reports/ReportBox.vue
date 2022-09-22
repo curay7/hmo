@@ -18,8 +18,8 @@
                 <i class="fa fa-male"></i>
               </div>
               <div class="value">
-                <h1 class="count">523</h1>
-                <p>Male</p>
+                <h1 class="count" style="color: #5f6f94">523</h1>
+                <p style="color: #5f6f94">Male</p>
               </div>
             </section>
           </div>
@@ -29,8 +29,8 @@
                 <i class="fa fa-female"></i>
               </div>
               <div class="value">
-                <h1 class="count2">234</h1>
-                <p>Female</p>
+                <h1 class="count2" style="color: #5f6f94">234</h1>
+                <p style="color: #5f6f94">Female</p>
               </div>
             </section>
           </div>

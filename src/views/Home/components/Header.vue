@@ -32,7 +32,30 @@
 </template>
 
 <script>
-export default {};
+import { supabase } from "../../../supabase";
+import { useRouter, useRoute } from "vue-router";
+
+export default {
+  setup() {
+    const router = useRouter();
+    const signOut = () => {
+      try {
+        // loading.value = true;
+        let { error } = supabase.auth.signOut();
+        router.push("/login");
+        if (error) throw error;
+      } catch (error) {
+        alert(error.message);
+      } finally {
+        //loading.value = false;
+      }
+    };
+
+    return {
+      signOut,
+    };
+  },
+};
 </script>
 
 <style></style>

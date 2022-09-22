@@ -13,7 +13,7 @@
             </time>
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">Dashboard</h1>
+            <h1 style="color: #5f6f94">Dashboard</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>
@@ -36,7 +36,7 @@
             </time>
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">MEMBER PROFILE</h1>
+            <h1 style="color: #5f6f94">MEMBER PROFILE</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>
@@ -60,7 +60,7 @@
             >
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">Reports</h1>
+            <h1 style="color: #5f6f94">Reports</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>
@@ -82,7 +82,7 @@
             </time>
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">Billing</h1>
+            <h1 style="color: #5f6f94">Billing</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>
@@ -101,7 +101,7 @@
             >
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">LOA</h1>
+            <h1 style="color: #5f6f94">LOA</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>
@@ -120,7 +120,7 @@
             </time>
           </section>
           <section class="card-cont">
-            <h1 style="color: #1f1d36">NOA</h1>
+            <h1 style="color: #5f6f94">NOA</h1>
             <div class="even-info">
               <i class="fa fa-map-marker"></i>
               <p class="inv">nexen square for people australia, sydney</p>

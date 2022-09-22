@@ -15,7 +15,7 @@
     />
 
     <div class="container">
-      <div class="card">
+      <div class="card" style="width: 100%">
         <div class="row align-items-center">
           <div class="col-md-6">
             <div class="mb-3">

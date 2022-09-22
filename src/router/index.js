@@ -18,6 +18,7 @@ import page404 from "../views/page404.vue";
 
 //import Protected from "../views/Protected.vue";
 import { userSessionStore } from "../stores/userSession";
+import { supabase } from "../supabase";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -94,9 +95,8 @@ const router = createRouter({
 });
 
 router.beforeEach(async (to, from, next) => {
-  const userSession = true; //userSessionStore();
+  const userSession = supabase.auth.session();
   const requiresAuth = to.matched.some((record) => record.meta.requiresAuth);
-  console.log(userSession);
   if ((to.path === "/login" || to.path === "/register") && userSession) {
     next("/");
   } else if (requiresAuth && !userSession) {
