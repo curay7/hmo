@@ -48,7 +48,7 @@
               </div>
             </li>
           </router-link>
-          <router-link to="/billing">
+          <!-- <router-link to="/billing">
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn4' }"
@@ -61,7 +61,7 @@
                 <div class="c-menu-item__title"><span>Settings</span></div>
               </div>
             </li>
-          </router-link>
+          </router-link> -->
           <router-link to="/loa">
             <li
               class="c-menu__item has-submenu"

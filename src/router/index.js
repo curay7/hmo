@@ -8,7 +8,7 @@ import MemberProfile from "../views/Home/page/member/MemberProfile.vue";
 import MemberSearch from "../views/Home/page/member/MemberSearch.vue";
 import MemberViewProfile from "../views/Home/page/member/MemberViewProfile.vue";
 
-import HomeReports from "../views/Home/page/HomeReports.vue";
+import Reports from "../views/Home/page/reports/Reports.vue";
 import Billing from "../views/Home/page/billing/Billing.vue";
 import BillingSearch from "../views/Home/page/billing/BillingSearch.vue";
 
@@ -22,6 +22,10 @@ import { userSessionStore } from "../stores/userSession";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: "/",
+      redirect: "/dashboard",
+    },
     {
       path: "/login",
       name: "home",
@@ -71,7 +75,7 @@ const router = createRouter({
         {
           name: "Reports",
           path: "reports",
-          component: HomeReports,
+          component: Reports,
         },
         {
           name: "LOA",

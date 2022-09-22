@@ -10,33 +10,38 @@
 
         <div class="col-md-8 col-lg-6 col-xl-5 p-0 mx-auto">
           <h4 class="font-weight-bold my-4">
-            Mike Greene <a href="#" class="btn btn-success btn-sm"> Active </a>
+            Ananto, Joseph Besin
+            <a href="#" class="btn btn-success btn-sm"> Active </a>
           </h4>
           <div class="row">
             <div class="col">
               <div class="row mb-4">
-                <div class="col-md-3 text-muted">Birthday:</div>
-                <div class="col-md-9">May 3, 1995</div>
+                <div class="col-md-3 text-muted">Location:</div>
+                <div class="col-md-9">ACS Main</div>
               </div>
 
               <div class="row mb-4">
-                <div class="col-md-3 text-muted">Country:</div>
+                <div class="col-md-3 text-muted">Position</div>
                 <div class="col-md-9">
-                  <a href="javascript:void(0)" class="text-body">Canada</a>
+                  <a href="javascript:void(0)" class="text-body"
+                    >Stock Clerk 1</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col"></div>
             <div class="col">
               <div class="row mb-4">
-                <div class="col-md-3 text-muted">Birthday:</div>
-                <div class="col-md-9">May 3, 1995</div>
+                <div class="col-md-3 text-muted">Status:</div>
+                <div class="col-md-9">Regular</div>
               </div>
 
               <div class="row mb-4">
-                <div class="col-md-3 text-muted">Country:</div>
+                <div class="col-md-3 text-muted">Assign:</div>
                 <div class="col-md-9">
-                  <a href="javascript:void(0)" class="text-body">Canada</a>
+                  <a href="javascript:void(0)" class="text-body"
+                    >Super Market</a
+                  >
                 </div>
               </div>
             </div>
