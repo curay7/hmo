@@ -21,7 +21,7 @@
       <Sidebar></Sidebar>
     </body>
     <main class="l-main">
-      <HomeDashboard />
+      <router-view />
     </main>
   </div>
 </template>
@@ -34,15 +34,11 @@ import AvatarVue from "./components/Avatar.vue";
 import Sidebar from "./components/Sidebar.vue";
 import Header from "./components/Header.vue";
 
-//Page
-import HomeDashboard from "./HomeDashboard.vue";
-
 export default {
   components: {
     AvatarVue,
     Sidebar,
     Header,
-    HomeDashboard,
   },
   setup() {
     const loading = ref(true);

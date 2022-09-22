@@ -1,15 +1,14 @@
 <template>
   <div>
-    <HomeLayout v-if="user.user" />
-    <Auth v-else />
+    <router-view />
   </div>
 </template>
-
+<!-- 
 <script>
 import { user } from "./user";
 import { supabase } from "./supabase";
 import HomeLayout from "./views/Home/HomeLayout.vue";
-import Auth from "./views/Auth/Auth.vue";
+import Auth from "./view./views/Home/HomeMainPage.vue
 
 export default {
   components: {
@@ -28,4 +27,4 @@ export default {
     };
   },
 };
-</script>
+</script> -->
