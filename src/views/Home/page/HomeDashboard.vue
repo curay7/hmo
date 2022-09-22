@@ -3,7 +3,10 @@
     <br />
     <div class="row">
       <article class="card fl-left cardAnimation">
-        <router-link to="/dashboard">
+        <router-link
+          to="/dashboard"
+          style="text-decoration: none; color: inherit"
+        >
           <section class="date">
             <time datetime="23th feb"
               ><i class="material-icons lIcon">dashboard</i>
@@ -21,7 +24,10 @@
       </article>
 
       <article class="card fl-left cardAnimation">
-        <router-link to="/members">
+        <router-link
+          to="/members"
+          style="text-decoration: none; color: inherit"
+        >
           <section class="date">
             <time datetime="23th feb">
               <i class="material-icons" style="color: #7fb5ff; font-size: 150px"
@@ -42,7 +48,10 @@
     </div>
     <div class="row">
       <article class="card fl-left cardAnimation">
-        <router-link to="/reports">
+        <router-link
+          to="/reports"
+          style="text-decoration: none; color: inherit"
+        >
           <section class="date">
             <time datetime="23th feb">
               <i class="material-icons" style="color: #577bc1; font-size: 150px"
@@ -61,7 +70,10 @@
         </router-link>
       </article>
       <article class="card fl-left cardAnimation">
-        <router-link to="/billing">
+        <router-link
+          to="/billing"
+          style="text-decoration: none; color: inherit"
+        >
           <section class="date">
             <time datetime="23th feb">
               <i class="material-icons" style="color: #577bc1; font-size: 150px"
@@ -82,7 +94,7 @@
     </div>
     <div class="row">
       <article class="card fl-left cardAnimation">
-        <router-link to="/loa">
+        <router-link to="/loa" style="text-decoration: none; color: inherit">
           <section class="date">
             <time datetime="23th feb">
               <i class="material-icons lIcon">assignment</i></time
@@ -99,7 +111,7 @@
         </router-link>
       </article>
       <article class="card fl-left cardAnimation">
-        <router-link to="/noa">
+        <router-link to="/noa" style="text-decoration: none; color: inherit">
           <section class="date">
             <time datetime="23th feb">
               <i class="material-icons" style="color: #577bc1; font-size: 150px"

@@ -59,7 +59,10 @@
                           <a href="#" class="zmdi zmdi-instagram"></a>
                         </div>
                       </div>
-                      <router-link to="/billing">
+                      <router-link
+                        to="/billing"
+                        style="text-decoration: none; color: inherit"
+                      >
                         <button
                           type="submit"
                           id="submit"

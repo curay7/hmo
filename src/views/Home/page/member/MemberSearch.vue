@@ -37,7 +37,9 @@
                   </div>
                 </div>
                 <div class="actions clearfix">
-                  <router-link to="/member-view"
+                  <router-link
+                    to="/member-view"
+                    style="text-decoration: none; color: inherit"
                     ><button type="submit" class="btn btn-primary btn-block">
                       Search
                     </button>

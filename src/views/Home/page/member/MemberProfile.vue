@@ -17,7 +17,10 @@
 
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 mb-30">
-          <router-link to="/member-search">
+          <router-link
+            to="/member-search"
+            style="text-decoration: none; color: inherit"
+          >
             <div class="team-item">
               <div class="mb-30 position-relative d-flex align-items-center">
                 <span class="socials d-inline-block">
@@ -38,7 +41,10 @@
           </router-link>
         </div>
         <div class="col-md-6 col-lg-4 mb-30">
-          <router-link to="/billing-search">
+          <router-link
+            to="/billing-search"
+            style="text-decoration: none; color: inherit"
+          >
             <div class="team-item">
               <div class="mb-30 position-relative d-flex align-items-center">
                 <span class="socials d-inline-block">

@@ -6,7 +6,10 @@
     <div class="l-sidebar__content">
       <nav class="c-menu js-menu">
         <ul class="u-list">
-          <router-link to="/dashboard">
+          <router-link
+            to="/dashboard"
+            style="text-decoration: none; color: inherit"
+          >
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn1' }"
@@ -20,7 +23,10 @@
               </div>
             </li>
           </router-link>
-          <router-link to="/members">
+          <router-link
+            to="/members"
+            style="text-decoration: none; color: inherit"
+          >
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn2' }"
@@ -34,7 +40,10 @@
               </div>
             </li>
           </router-link>
-          <router-link to="/reports">
+          <router-link
+            to="/reports"
+            style="text-decoration: none; color: inherit"
+          >
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn3' }"
@@ -62,7 +71,7 @@
               </div>
             </li>
           </router-link> -->
-          <router-link to="/loa">
+          <router-link to="/loa" style="text-decoration: none; color: inherit">
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn5' }"
@@ -77,7 +86,7 @@
             </li>
           </router-link>
 
-          <router-link to="/noa">
+          <router-link to="/noa" style="text-decoration: none; color: inherit">
             <li
               class="c-menu__item has-submenu"
               :class="{ active: activeBtn === 'btn6' }"
